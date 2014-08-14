@@ -1,0 +1,55 @@
+\documentclass[twoside,10pt]{book}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{soul}
+
+%----------------------------------------------------------------------------------------
+%	MACROS
+%----------------------------------------------------------------------------------------
+
+\definecolor{menugray}{RGB}{230,230,230}
+\sethlcolor{menugray} 
+\newcommand{\menu}[1]{\hl{\texttt{#1}}}
+
+%----------------------------------------------------------------------------------------
+%	ENVIRONMENTS
+%----------------------------------------------------------------------------------------
+
+\definecolor{color-info}{RGB}{0,0,128} 
+\newenvironment{info}{\begin{description}\item[\textcolor{color-info}{Information.}]}{\end{description}}
+
+\definecolor{color-warning}{RGB}{128,0,0} 
+\newenvironment{warning}{\begin{description}\item[\textcolor{color-warning}{Warning.}]}{\end{description}}
+
+\newsavebox{\mybox}
+\newenvironment{example}
+{\begin{lrbox}{\mybox}\begin{minipage}{0.9\textwidth}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\mybox}}}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFO
+%----------------------------------------------------------------------------------------
+
+\title{Practical Systems Engineering}
+\author{by the Systems Engineering Community}
+
+%----------------------------------------------------------------------------------------
+%	START DOCUMENT
+%----------------------------------------------------------------------------------------
+
+\begin{document}        
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{introduction}
+
+\chapter{Case Study}
+\input{casestudy}
+
+\end{document}
+
