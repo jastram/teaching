@@ -2,7 +2,7 @@
 layout: post
 title: "Initial Telco"
 author:
-modified:
+modified: 2014-07-25
 excerpt: "First telco of collaborators"
 tags: []
 ---
