@@ -3,14 +3,17 @@
 - title: Home
   url: /
 
-- title: About
-  url: /about/
+- title: Roadmap
+  url: /roadmap/
 
 - title: Collaborators
   url: /team/
 
 - title: Get Involved
   url: /join/
+
+- title: History
+  url: /posts/
 
 - title: Handbook
   url: https://github.com/jastram/teaching/blob/master/SE/se-latex/main.pdf?raw=true
