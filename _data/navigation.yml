@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+
+- title: Collaborators
+  url: /team/
+
+- title: Get Involved
+  url: /join/
+
+- title: Handbook
+  url: https://github.com/jastram/teaching/blob/master/SE/se-latex/main.pdf?raw=true
