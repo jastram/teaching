@@ -10,12 +10,18 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-The roadmap describes how we plan on realizing this project.
+The roadmap describes how we plan on realizing this project.  Eventually, the roadmap should be managed via gitHub Milestones.  We'll do this, as it matures.
+
+Open Questions are now in the [issue tracker](https://github.com/jastram/teaching/labels/question)
 
 ## High-level tasks:
 
 * Decide on [Case Study](https://wiki.eclipse.org/RMF/Teaching#Case_Study)
-* Open Questions are now in the [issue tracker](https://github.com/jastram/teaching/labels/question)
+* Create an Outline of the Training, based on ISO 29110
+* Production is broken down into:
+  * Teaching Text (currently in the Repository as Latex)
+  * Toolchain to be employed
+  * Creation of artifacts
 
 ## Decide on Case Study
 
