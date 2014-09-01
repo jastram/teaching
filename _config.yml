@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Eclipse for Teaching RE an SE
+title:            Eclipse for Teaching
 locale:           en_US
 url:              http://localhost:4000
 # url:              https://github.com/jastram/teaching
