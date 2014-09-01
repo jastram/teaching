@@ -3,7 +3,7 @@ layout: page
 excerpt: "Eclipse for Teaching Systems Engineering"
 tags: [Eclipse, Teaching, Requirements Engineering, Systems Engineering]
 image:
-  feature: texture-feature-03.jpg
+  feature: texture-feature-01.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
