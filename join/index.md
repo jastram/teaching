@@ -20,7 +20,7 @@ For the time being, join the discussion on [LinkedIn Discussion](https://www.lin
 
 ## Join the gitHub project 
 
-If you would like to contribute content, then please join the teaching project by sending me your gitHub username (email on my [profile page](https://github.com/jastram/)).  This will allow you to commit code and to be assigned to tracker issues.
+If you would like to contribute content, then please join the teaching project by sending me your gitHub username (email on my [profile page](https://github.com/jastram/)).  This will allow you to commit code and to be assigned to tracker issues.  Contributed content will be licensed under the Apache License 2.0.
 
 ## Comment on the Roadmap
 
