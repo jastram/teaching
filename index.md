@@ -29,3 +29,7 @@ The scope is the creation of teaching materials, centered around a case study, b
 *    **Teaching Materials:** Ideally, one outcome of this effort is a set of adaptable teaching materials. 
 
 Initially, we will focus on teaching materials, specifically a case study. 
+
+## Licensing
+
+Contributed content will be licensed under the Apache License 2.0.
