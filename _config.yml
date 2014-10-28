@@ -27,12 +27,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Open Tools in Education
+  name: Teaching System Engineering with Eclipse
   avatar: bio-photo.jpg
-  bio: "A Community Project"
+  bio: "Phase 1: Requirements Engineering"
   email: michael.jastram@formalmind.com
   disqus-shortname: 
-  twitter: #username
+  twitter: #jastram
   facebook: #username
   google:
     plus: #username

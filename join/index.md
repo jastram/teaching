@@ -22,6 +22,12 @@ For the time being, join the discussion on [LinkedIn Discussion](https://www.lin
 
 If you would like to contribute content, then please join the teaching project by sending me your gitHub username (email on my [profile page](https://github.com/jastram/)).  This will allow you to commit code and to be assigned to tracker issues.  Contributed content will be licensed under the Apache License 2.0.
 
+The URL for the gitub project is:
+
+https://github.com/jastram/teaching
+
+This is where you find the latex sources, project files, and this web site.
+
 ## Comment on the Roadmap
 
 Current activities focus on the Roadmap.
