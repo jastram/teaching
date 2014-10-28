@@ -8,7 +8,8 @@ image:
   creditlink: http://texturelovers.com
 ---
 
--![We speak at EclipseCon](https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png)
+<a href="https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk">
+<img src="https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png" align="left" /></a>
 Michael Jastram and Andrea Herrmann will [speak about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).
 
 # Eclipse for Teaching Requirements and Systems Engineering

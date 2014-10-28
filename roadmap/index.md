@@ -14,9 +14,15 @@ The roadmap describes how we plan on realizing this project.  Eventually, the ro
 
 Open Questions are now in the [issue tracker](https://github.com/jastram/teaching/labels/question)
 
+## Timeline:
+
+* **Master Thesis Kick-Off:** Andrea Hermann supervises a student who will work on the Rover case study for his master thesis.
+* **28-Oct-2014** Talk at [EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).
+* **November 2014:** Feedback regarding Michael's Horizon 2020 SME submission, which could co-finance this project.
+* **February 2015:** Master Thesis submission.
+
 ## High-level tasks:
 
-* Decide on [Case Study](https://wiki.eclipse.org/RMF/Teaching#Case_Study)
 * Create an Outline of the Training, based on ISO 29110
 * Production is broken down into:
   * Teaching Text (currently in the Repository as Latex)
@@ -24,6 +30,8 @@ Open Questions are now in the [issue tracker](https://github.com/jastram/teachin
   * Creation of artifacts
 
 ## Decide on Case Study
+
+The Rover has been picked as the case study for this project.
 
 These case studies have been identified:
 
