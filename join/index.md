@@ -24,7 +24,7 @@ If you would like to contribute content, then please join the teaching project b
 
 The URL for the gitub project is:
 
-https://github.com/jastram/teaching
+[github.com/jastram/teaching](https://github.com/jastram/teaching)
 
 This is where you find the latex sources, project files, and this web site.
 
