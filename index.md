@@ -8,6 +8,9 @@ image:
   creditlink: http://texturelovers.com
 ---
 
+-![We speak at EclipseCon](https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png)
+Michael Jastram and Andrea Herrmann will [speak about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).
+
 # Eclipse for Teaching Requirements and Systems Engineering
 
 Requirements Management and Engineering (RE&M) is taught, both in industry and academia. The availability of open source RE-tools, and the RMF-based fmStudio in particular, created some interest for using those tools for teaching.
@@ -18,9 +21,12 @@ Create (1) a set of teaching materials that is actively used; (2) which is embed
 
 ## Scope
 
-The scope is the creation of teaching materials, centered around a case study, based on existing methods and tools. This is visualized in the following picture: 
+The scope is the creation of teaching materials, centered around a case study, based on existing methods and tools. The elements are:
 
-![Scope](images/teaching-overview.png)
+* **Method:** We use [ISO 29110](http://en.wikipedia.org/wiki/ISO_29110) as the foundation, which is a standard specifically for small organizations and teams.
+* **Tools:** We use an Eclipse-based toolchain.  The first component (for requiremeents engineering) is [ProR](https://www.eclipse.org/rmf/).
+* **Case Study:** The case study will be the development of an autonomous rover.
+* **Teaching Materials:** The teaching materials will be collected in [this gitHub project](https://github.com/jastram/teaching), available under the Apache 2.0 License.
 
 ## Objectives
 
