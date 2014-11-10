@@ -1,0 +1,6 @@
+ID,Requirement
+REQ-1,"The system shall allow pedestrians to safely cross a street."
+REQ-2,"The system scope is a controller that drives the existing lights for cars (red, yellow, green) and pedestrians (red, green)."
+REQ-3,"The lights for cars and pedestrians must never be green at the same time."
+REQ-4,"A timer sends a pulse to the controller every second."
+REQ-5,"The traffic light follows a standard light regime."
