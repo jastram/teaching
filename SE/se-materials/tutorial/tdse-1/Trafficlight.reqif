@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0" xmlns:headline="http://pror.org/presentation/headline" xmlns:id="http://pror.org/presentation/id" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="cbd42ca0-aef7-418f-99fe-72df0eaacfee">
+      <COMMENT>Created by: jastram</COMMENT>
+      <CREATION-TIME>2014-11-10T16:19:34.104+01:00</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0.1</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_y0KGoGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.842+01:00" LONG-NAME="T_Description"/>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_y0VFwGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.860+01:00" LONG-NAME="T_ID"/>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_ZbJlEGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:01:41.420+01:00" LONG-NAME="T_Headline"/>
+        <DATATYPE-DEFINITION-XHTML IDENTIFIER="_eHcVEGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:02:14.908+01:00" LONG-NAME="T_XHTML"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPECIFICATION-TYPE IDENTIFIER="_-deIYmjsEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T16:19:34.104+01:00" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_-deIY2jsEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T16:19:34.104+01:00" LONG-NAME="Description"/>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_y0cagGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.872+01:00" LONG-NAME="Requirements Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_y0dBkGkSEeSaqpjtMjjGPw" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_y0KGoGkSEeSaqpjtMjjGPw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_y0dBkWkSEeSaqpjtMjjGPw" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_y0VFwGkSEeSaqpjtMjjGPw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_TBEdkGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:00:59.727+01:00" LONG-NAME="Headline Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_XU31EGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:01:28.412+01:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_ZbJlEGkUEeSaqpjtMjjGPw</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_fnz7oGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:02:24.030+01:00" LONG-NAME="Information Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_h4tAMGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:02:36.935+01:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-XHTML-REF>_eHcVEGkUEeSaqpjtMjjGPw</DATATYPE-DEFINITION-XHTML-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-XHTML>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_y0kWUGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.885+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The system shall allow pedestrians to safely cross a street.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkGkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkWkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_y0cagGkSEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_y0tgQWkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.900+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The system scope is a controller that drives the existing lights for cars (red, yellow, green) and pedestrians (red, green).">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkGkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkWkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_y0cagGkSEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_y08JwGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.923+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The lights for cars and pedestrians must never be green at the same time.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkGkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkWkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_y0cagGkSEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_y1JlImkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.946+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="A timer sends a pulse to the controller every second.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkGkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkWkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_y0cagGkSEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_y1YOomkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T20:50:16.970+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The traffic light follows a standard light regime.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkGkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ-5">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_y0dBkWkSEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_y0cagGkSEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_kiOnMGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:02:56.381+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_XU31EGkUEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_TBEdkGkUEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_6dRiMGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:30:58.103+01:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-XHTML>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_h4tAMGkUEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+              <THE-VALUE>
+                <xhtml:div><xhtml:object data="Trafficlight/trafficlight.png" style="max-width:100%;" type="image/png" width="100">This is what will show if the image can't be displayed.</xhtml:object></xhtml:div>
+              </THE-VALUE>
+            </ATTRIBUTE-VALUE-XHTML>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_fnz7oGkUEeSaqpjtMjjGPw</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_-deIZmjsEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T16:19:34.104+01:00" LONG-NAME="Specification Document">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_-deIY2jsEeSaqpjtMjjGPw</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_-deIYmjsEeSaqpjtMjjGPw</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_kicCkGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:02:56.381+01:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_kiOnMGkUEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_y0s5MGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:03:22.985+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_y0kWUGkSEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_6daFEGkUEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:05:20.755+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_6dRiMGkUEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_y067oGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:03:22.985+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_y0tgQWkSEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_y1I-EGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:03:22.985+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_y08JwGkSEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_y1XnkGkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:03:22.985+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_y1JlImkSEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_y1kb4GkSEeSaqpjtMjjGPw" LAST-CHANGE="2014-11-10T21:03:22.985+01:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_y1YOomkSEeSaqpjtMjjGPw</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_-deIZmjsEeSaqpjtMjjGPw">
+            <configuration:columns>
+              <configuration:Column label="ID" width="86"/>
+              <configuration:Column label="Description" width="416"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>ID</defaultLabel>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+        <configuration:presentationConfigurations>
+          <configuration:ProrPresentationConfigurations>
+            <configuration:presentationConfigurations>
+              <headline:HeadlineConfiguration datatype="_ZbJlEGkUEeSaqpjtMjjGPw"/>
+              <id:IdConfiguration datatype="_y0VFwGkSEeSaqpjtMjjGPw" count="8" verticalAlign="Center"/>
+            </configuration:presentationConfigurations>
+          </configuration:ProrPresentationConfigurations>
+        </configuration:presentationConfigurations>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>
