@@ -111,6 +111,7 @@ We recommend to switch to the ProR perspective, to get started.
 
 % ==================================================================
 \section{Import Requirements}
+\label{sec:tutorial-import}
 % ==================================================================
 
 Typically, you already have requirements available in some form.  ProR includes a simple CSV-Importer that allows you to import existing requirements.  Follow these steps:
@@ -126,7 +127,7 @@ Typically, you already have requirements available in some form.  ProR includes 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\linewidth]{../se-images/csv-import.png}
+  \includegraphics[width=0.8\linewidth]{../se-images/csv-import.png}
   \caption{Result: The requirement is now a sibling of the chosen requirement.}
   \label{fig:csv-import}
 \end{figure}
@@ -229,13 +230,141 @@ A diagram should already have been created upon project creation.  You can open 
 
 By dragging elements from the project explorer into the diagram area, we end up with the editor, as shown in Figure~\ref{fig:ecore_diagram}.  Elements and labels can be customized as one sees fit.  Changes to the model, including the creation of new elements, will be reflected in the tree view of the Ecore model as well.  Changes to the Ecore model will be seen here, but newly created elements will not appear on the diagram by default.  They have to be added manually.
 
-\begin{itemize}
-\item Right-click on the .ecore file and select \menu{Initialize Ecore Diagram...}
-\item The correct .aird file should already be selected as the 
-\end{itemize}
-
 % ==================================================================
-\section{Modeling with Papyrus}
+\section{Traceability}
 % ==================================================================
 
+In the previous section, we saw for the first time links (or traces) in ProR.  Traces are useful for many things, including change management.
+
+Traces can are typed and can have an arbitrary number of attributes.  In ProR, traces can be created via drag and drop, or via context menu.  The latter is recommended, as it makes it easy to link multiple requirements at the same time, and allows to set the type with one click, as shown in Figure~\ref{fig:linking-finish}.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.6\linewidth]{../se-images/linking-finish.png}
+  \caption{Completing a link operation.}
+  \label{fig:linking-finish}
+\end{figure}
+
+\begin{info}
+We wrote an article in the \href{http://formalmind.com/de/blog/better-link-creation-rmf-pror-070}{Formal Mind Blog} on how to create links in detail.
+\end{info}
+
+% ------------------------------------------------------------------
+\subsection{Change Management}
+% ------------------------------------------------------------------
+
+With change management, you want to know if a relationship has to be re-evaluated.  There is a free extension available for this purpose, as part of the Formal Mind Essentials (which should be installed, if you followed the installation instructions).  With this extension, two flags on the link are set if source or target change, respectively.  This is shown in Figure~\ref{fig:change-mgmt}.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.8\linewidth]{../se-images/ProRArtefacts_Trace_LL.png}
+  \caption{When source or target of a link change, a corresponding flag is set on the link.}
+  \label{fig:change-mgmt}
+\end{figure}
+
+This mechanism also works with external models, e.g. the traceability the the Ecore model that was described in Section~\ref{sec:tutorial-ecore}.
+
+% ==================================================================
+\section{Modeling with SysML and Papyrus}
+% ==================================================================
+
+An alternative to the RMF/Ecore approach is to use SysML with Papyrus.  SysML has a requirements type, which would allow covering requirements and model in one overarching model.  Further, SysML contains Sequence Diagrams, Activity Diagrams and State Machines, thereby supporting the modeling of dynamic behavior as well.
+
+To use SysML, create a SysML Project via \menu{File | New | Project... | Papyrus | SysML Project}. When asked for the diagrams to be created, sselect the ``Block Definition Diagram'' (roughly equivalent to a Class Diagram) and the ``Requirements Diagram''.
+
+We will explore this further in the future, but consider SysML to be overkill at this point.
+
+% ==================================================================
+\section{Code Generation with Ecore}
+% ==================================================================
+
+The Ecore model we created in Section~\ref{sec:tutorial-ecore} can be used to generate a number of different pieces of code, by default Java:
+
+\begin{description}
+\item[Model Code.] This is fairly simple code that manages getters and setters, relationships, persistence, notifications, etc.
+\item[GUI Code.] This consists of an ``Edit'' model that can drive a user interface, but does not contain GUI code itself.  A simple reflective user interface can be created as well, which looks very much like the Tree-based Ecore editor.
+\item[Test Code.] The framework generates stubs for unit tests, which have to be implemented manually.
+\end{description}
+
+The generation is driven by a ``Generator Model'', which has already been created when we built the Ecore model.  It resides in the same folder.
+
+% ------------------------------------------------------------------
+\subsection{Model Code}
+% ------------------------------------------------------------------
+
+We generate the Model code via Right-Click on the top-level element of the generator model and select \menu{Generate Model Code}.
+
+The code will be generated in the same project.  Let's implement a little program for testing:
+\begin{lstlisting}
+public static void main(String[] args) {
+	Controller controller = Tdse3Factory.eINSTANCE.createController();
+	while (true) {
+		print(controller);
+		controller.tick();
+	}
+}
+
+private static void print(Controller controller) {
+	System.out.println("cars: " + controller.getCarLight().getColors() +
+			"peds: " + controller.getPedLight().getColors());
+}
+\end{lstlisting}
+
+Of course, this program will not run as is: the lights will be null, the method tick() has not been implemented, etc.  This is left as an exercise to the reader.
+
+% ==================================================================
+\section{Unit Testing}
+% ==================================================================
+
+Similar to the generation of the model code, you can generate stubs for unit tests. Right-Click on the top-level element of the generator model and select \menu{Generate Model Code}.
+
+By default, the test code is created in a separate project.  The inheritance hierarchy of the test classes reflects those of the model.  Each class sets up and tears down a ``fixture'', an instance of the class under test.
+
+Tests are also inherited: If you implement a test for a superclass in the corresponding unit test file, using the fixture, then the same test will be executed for the derived classes as well.
+
+% ------------------------------------------------------------------
+\subsection{Mocking}
+% ------------------------------------------------------------------
+
+Even at the unit test level, you may be confronted with the fact that the ``real'' thing to be tested is not available.  This is particularly relevant for systems.  Consider a software system, for instance, that relies on a web API to operate.  On the unit test level, you would typically not want to communicate with the real API.  It would be hard to determine whether the API is down or the test broken.
+
+The solution for this is ``mocking'': Writing code that mimics the real thing, but only those aspects relevant for the test.  Conveniently, mocking also allows testing a service that misbehaves, allowing fault and error conditions to be tested as well.
+
+There is a wide array of mocking frameworks available.  We had good experience with JMockit, but there are many others.
+
+% ------------------------------------------------------------------
+\subsection{Functional and Integration Testing}
+% ------------------------------------------------------------------
+
+For the scope covered in this document, there is nothing between unit tests and acceptance tests.  But in any project of non-trivial size, and in particular for systems engineering projects, there are functional and integration tests.
+
+If a test can be automated, then it can typically still be realized by leveraging JUnit.  In particular, an integration test can be quite similar to a unit test, except that it does not use mocking, but ``the real thing''.  This can be an API of a service that is called in real time, or it can be real hardware that responds.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\linewidth]{../se-images/manual-testing-1.png}
+  \caption{The diagram has been created by dragging elements from the Project Explorer (left) to the drawing area (middle).  New elements can also be created by using the pallet on the right.}
+  \label{fig:manual-testing}
+\end{figure}
+
+% ==================================================================
+\section{Acceptance Testing}
+% ==================================================================
+
+With acceptance testing, we reach the top of the V again.  Acceptance tests are hard to automate.  There may be scenarios where it is possible, and then some techniques from the previous section could be employed.  But more often than not, they have to be performed manually.  In this section, we use ProR/RMF again to implement manual testing.
+
+\begin{info}
+There is a more elaborate description of this technique in the \href{http://formalmind.com/de/blog/manual-testing-pror}{Formal Mind Blog}
+\end{info}
+
+% ------------------------------------------------------------------
+\subsection{A Test Result Specification}
+% ------------------------------------------------------------------
+Tests are defined in a separate document that is part of the same .reqif file.  Corresponding to Section~\ref{sec:tutorial-import}, the document can be styled with headlines, sections, etc.
+
+But the important thing is to create an enumeration data type for recording the tests results, typically ``pass'' and ``fail''.
+
+When the time comes to run a test, the tester creates a new attribute for the version under test.  Now, each test can be performed, and the result recorded, as shown in Figure~\ref{fig:manual-testing}.
+
+The nice thing is, that old tests will be preserved.  The main view (Specification Editor) can be configured to only show the version of interest, but in the properties view, all past test results are still there to be inspected.
 
