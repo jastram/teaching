@@ -4,4 +4,3 @@ Bundle-Name: tdse-3
 Bundle-SymbolicName: tdse-3; singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Require-Bundle: org.eclipse.emf.ecore
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
