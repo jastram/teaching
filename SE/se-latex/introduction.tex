@@ -1,10 +1,12 @@
 Requirements Management and Engineering (RE\&M) is taught, both in industry and academia. The availability of open source SE-tools, and Eclipse-based tools in particular, created some interest for using those tools for teaching. 
 
+As RE\&M is often seen as a discipline of Systems Engineering, our scope is systems engineering, with an \textbf{initial} focus on requirements engineering.
+
 %===============================================================================
 \section{Vision}
 %===============================================================================
 
-The vision of this project is to create:\marginpar{(mj) Contributors, feel free to comment via margin comments!}
+The vision of this project is to create:
 
 \begin{enumerate}
 \item A set of teaching materials that is actively used; 
@@ -20,22 +22,33 @@ The scope is the creation of teaching materials, centered around a case study, b
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{../se-images/teaching-overview.pdf}
+  \includegraphics[width=\textwidth]{../se-images/teaching-overview.png}
   \caption{Scope of the SE teaching materials}
   \label{fig:scope}
 \end{figure}
 
+%-------------------------------------------------------------------------------
+\subsection{Software vs. Systems Engineering}
+%-------------------------------------------------------------------------------
+
+For the purpose of this tutorial, a system has interfaces with other software or hardware, while software is (more or less) stand-alone.  Using this definition, we see systems engineering simply as an extension to software engineering, but with interfaces that can be unreliable.
+
+%-------------------------------------------------------------------------------
+\subsection{Standards}
+%-------------------------------------------------------------------------------
+
 ISO 29110 looks promising as the foundation for the method. Eclipse-based tools in general, and ProR for requirements engineering in particular, will be used. We are currently looking for a suitable case study, ideally using something that already exists. The focus will be on the creation of shared teaching materials. 
+%-------------------------------------------------------------------------------
 
 %===============================================================================
 \section{Tools}
 %===============================================================================
 
-A central idea of this project is the use of freely available tools, as we cannot expect students to invest in expensive tools.  Tools will be based on Eclipse.  Figure~\ref{fig:v-model} depicts a simplified V-Model, depicting the pictures we could employ.
+A central idea of this project is the use of freely available tools, as we cannot expect students to invest in expensive tools.  Tools will be based on Eclipse.  Figure~\ref{fig:v-model} shows on the left a simplified V-Model, depicting the tools we plan to use.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{../se-images/v-model.pdf}
+  \includegraphics[width=\textwidth]{../se-images/toolchain.pdf}
   \caption{Tools used in this course}
   \label{fig:v-model}
 \end{figure}
@@ -43,6 +56,22 @@ A central idea of this project is the use of freely available tools, as we canno
 \begin{info}
 In a ``real'' project, there would be many more tools and artifacts.  We will keep tools and artifacts to a minimum, in order not to overwhelm the students.
 \end{info}
+
+As you can see, we plan on building a \textbf{minimal, complete, Eclipse-based} software engineering platform.  It is loosely organized according to the V-Model.
+
+%-------------------------------------------------------------------------------
+\subsection{Modularity and Extendability}
+%-------------------------------------------------------------------------------
+
+Figure~\ref{fig:v-model} depicts on the right how this toolchain can be adapted to your needs.
+
+
+Openness helps drastically to make this possible:
+
+\begin{description}
+\item[Open Standards] make it possible to replace individual tool components, without disturbing the toolchain as a whole.  Open Standards that we use include ReqIF, Java and JUnit.
+\item[Open Software] allows the toolchain to be tailored and seamlessly integrated in a way that is very difficult to do otherwise.
+\end{description}
 
 %===============================================================================
 \section{Background}
@@ -54,6 +83,6 @@ This project started in July 2014 as a discussion on \href{https://www.linkedin.
 \section{License}
 %===============================================================================
 
-No license has been selected yet! Please defer from using this content until a license has been selected.  It will probably be CC-BY --- the Creative Commons license that allows commercial reuse.
+This content is licensed as Apache 2.0.  If you contribute to the corresponding gitHub repository, you implicitly license the content that way.
 
 

@@ -8,13 +8,14 @@ This tutorial covers the development of a small traffic light system, as shown i
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\linewidth]{../se-images/trafficlight.png}
+  \includegraphics[width=0.8\linewidth]{../se-images/trafficlight.png}
   \caption{We will model a simple traffic light system.}
   \label{fig:trafficlight}
 \end{figure}
 
 % ==================================================================
 \section{Tool Installation}
+\label{sec:tutorial-tool-installation}
 % ==================================================================
 
 As of this writing, a complete toolchain is not yet available.  The following describes the installation from various components.
@@ -76,7 +77,7 @@ In the context of a public research project (itea openETCS), a traceability plug
 \begin{itemize}
 \item Use this update site: http://openetcs.ci.cloudbees.com/job/openETCS-tycho/lastSuccessfulBuild/artifact/tool/bundles/org.openetcs.releng.products/target/repository
 \item Unselect ``Group items by category''
-\item Select \textbf{only} ``Feature''
+\item Select \textbf{only} ``ProR Tracing Feature''
 \item Complete the installation.
 \end{itemize}
 
@@ -90,6 +91,11 @@ You can install additional components for modeling via \menu{Papyrus via Help | 
 \item[Ecore Tools.] Support diagram notation for Ecore models.
 \item[Papyrus.] Supports UML and SysML.
 \end{description}
+
+We had some problems with installing the Ecore Tools.  If you cannot see a diagram in Section~\ref{}, then follow these steps:
+
+Install software from this update site: http://download.eclipse.org/ecoretools/updates/releases/2.0.1/luna
+Select Ecore Diagram Editor
 
 % ------------------------------------------------------------------
 \subsection{Team Support}
@@ -153,7 +159,7 @@ A glossary helps keeping track of terminology.  In this section, the glossary ma
 
 Note that this kind of glossary is a ``dead end'', in the sense that it cannot be used beyond its purpose.  Contrast that with a model-based data dictionary, as described in Section~\ref{sec:tutorial-ecore}.
 
-The glossary is kind of cumbersome to configure.   Therefore, we included a correctly configured \href{../se-materials/tutorial/tdse-2}{Sample Project}.  Note that you need both the Highlighting and Keyword Highlighting presentations, in that order.
+The glossary is kind of cumbersome to configure.   Therefore, we included a correctly configured \href{../se-materials/tutorial/tdse-2/}{Sample Project}.  Note that you need both the Highlighting and Keyword Highlighting presentations, in that order.
 
 Figure~\ref{fig:tutorial-step02} shows the glossary, and its application to the requirements, which have been rewritten to use the terminology of the specification.
 
@@ -204,8 +210,29 @@ As you can see, the editors are arranged so that the requirements editor and the
 Linking via Drag and Drop is a feature taken from the openETCS project, \href{https://github.com/openETCS/toolchain/wiki/User-Documentation#Tracing_Requirements_and_SysML_Models}{where it is documented}.
 \end{info}
 
-We provided a prconfigured \href{../se-materials/tutorial/tdse-3}{Sample Project}, that allows annotating traces, as also shown in Figure~\ref{fig:tutorial-step03} (the second link of REQ-2).
+We provided a preconfigured \href{../se-materials/tutorial/tdse-3/}{Sample Project}, that allows annotating traces, as also shown in Figure~\ref{fig:tutorial-step03} (the second link of REQ-2).
 
+% ------------------------------------------------------------------
+\subsection{Working with Diagrams}
+% ------------------------------------------------------------------
+
+Some people prefer diagrams to the tree-view shown in Figure~\ref{fig:tutorial-step03}, and diagrams can make communication easier.  If you installed the tool as described in Section~\ref{sec:tutorial-tool-installation}, then you can create a diagram from the Ecore model as described here.  Diagram and model will be synchronized, but it's possible to only show a subset of the model elements in the diagram.
+
+A diagram should already have been created upon project creation.  You can open it by going to the Model Explorer or Project Explorer, and opening the .ecore model by clicking on the \[+\] to the left of the file name. it should show the package name (tdse3), and upon opening it again, it should unveal ``tdse3 class diagram''.  Doubleclicking should open the diagram editor, which will be empty, except instructions on how to add elements.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\linewidth]{../se-images/ecore_diagram.png}
+  \caption{The diagram has been created by dragging elements from the Project Explorer (left) to the drawing area (middle).  New elements can also be created by using the pallet on the right.}
+  \label{fig:ecore_diagram}
+\end{figure}
+
+By dragging elements from the project explorer into the diagram area, we end up with the editor, as shown in Figure~\ref{fig:ecore_diagram}.  Elements and labels can be customized as one sees fit.  Changes to the model, including the creation of new elements, will be reflected in the tree view of the Ecore model as well.  Changes to the Ecore model will be seen here, but newly created elements will not appear on the diagram by default.  They have to be added manually.
+
+\begin{itemize}
+\item Right-click on the .ecore file and select \menu{Initialize Ecore Diagram...}
+\item The correct .aird file should already be selected as the 
+\end{itemize}
 
 % ==================================================================
 \section{Modeling with Papyrus}
