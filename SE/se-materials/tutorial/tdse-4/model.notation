@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_FUXBQGmpEeSls-NDOqsjsA" type="BlockDefinition" name="tdse4" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_MXDn8GmpEeSls-NDOqsjsA" type="shape_sysml_block_as_classifier">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MXHSUGmpEeSls-NDOqsjsA" type="label_sysml_block_name"/>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXOAAGmpEeSls-NDOqsjsA" type="compartment_sysml_property_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXOAAWmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXOAAmmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXOAA2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXOABGmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXOnEGmpEeSls-NDOqsjsA" type="compartment_sysml_part_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXOnEWmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXOnEmmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXOnE2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXOnFGmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXOnFWmpEeSls-NDOqsjsA" type="compartment_sysml_reference_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXOnFmmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXOnF2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXOnGGmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXOnGWmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXPOIGmpEeSls-NDOqsjsA" type="compartment_uml_port_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXPOIWmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXPOImmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXPOI2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXPOJGmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXPOJWmpEeSls-NDOqsjsA" type="compartment_sysml_flowport_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXPOJmmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXPOJ2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXPOKGmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXPOKWmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXP1MGmpEeSls-NDOqsjsA" type="compartment_uml_operation_as_list">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PXyOAGmpEeSls-NDOqsjsA" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PXy1EGmpEeSls-NDOqsjsA" key="collapsed" value="true"/>
+        </eAnnotations>
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXP1MWmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXP1MmmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXP1M2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXP1NGmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXP1NWmpEeSls-NDOqsjsA" type="compartment_sysml_constraint_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXP1NmmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXP1N2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXP1OGmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXP1OWmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:ListCompartment" xmi:id="_MXP1OmmpEeSls-NDOqsjsA" type="compartment_sysml_value_as_list">
+        <styles xmi:type="notation:DrawerStyle" xmi:id="_MXP1O2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MXP1PGmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MXP1PWmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MXP1PmmpEeSls-NDOqsjsA"/>
+      </children>
+      <element xmi:type="uml:Class" href="model.uml#_MW1lgGmpEeSls-NDOqsjsA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MXDn8WmpEeSls-NDOqsjsA" x="38" y="28" width="166" height="150"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_FUXBQWmpEeSls-NDOqsjsA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_FUXBQmmpEeSls-NDOqsjsA">
+      <owner xmi:type="uml:Model" href="model.uml#_E6AnkGmpEeSls-NDOqsjsA"/>
+    </styles>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Fk9CAGmpEeSls-NDOqsjsA" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <element xmi:type="uml:Model" href="model.uml#_E6AnkGmpEeSls-NDOqsjsA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_FUnf8GmpEeSls-NDOqsjsA" type="RequirementDiagram" name="tdse4" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_vdb70GmpEeSls-NDOqsjsA" type="shape_sysml_requirement_as_classifier">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_veFcEGmpEeSls-NDOqsjsA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viv5oGmpEeSls-NDOqsjsA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viv5oWmpEeSls-NDOqsjsA" key="StereotypeList" value="SysML::Requirements::Requirement"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viwgsGmpEeSls-NDOqsjsA" key="Stereotype_Presentation_Kind" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viwgsWmpEeSls-NDOqsjsA" key="PropStereoDisplay" value="SysML::Requirements::Requirement.id,SysML::Requirements::Requirement.text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viwgsmmpEeSls-NDOqsjsA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_vdci4GmpEeSls-NDOqsjsA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_vddJ8GmpEeSls-NDOqsjsA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_vddJ8WmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_vddJ8mmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_vddJ82mpEeSls-NDOqsjsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vddJ9GmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_vddJ9WmpEeSls-NDOqsjsA" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_vddJ9mmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_vddJ92mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_vddJ-GmpEeSls-NDOqsjsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vddJ-WmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_vddJ-mmpEeSls-NDOqsjsA" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_vddJ-2mpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_vddJ_GmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_vddJ_WmpEeSls-NDOqsjsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vddJ_mmpEeSls-NDOqsjsA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_vddJ_2mpEeSls-NDOqsjsA" type="compartment_sysml_requirement_idinfo_as_list">
+        <children xmi:type="notation:DecorationNode" xmi:id="_vddxAGmpEeSls-NDOqsjsA" type="label_sysml_requirement_id"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_vddxAWmpEeSls-NDOqsjsA" type="label_sysml_requirement_text"/>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_vddKAGmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_vddKAWmpEeSls-NDOqsjsA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_vddKAmmpEeSls-NDOqsjsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vddKA2mpEeSls-NDOqsjsA"/>
+      </children>
+      <element xmi:type="uml:Class" href="model.uml#_vdUAAGmpEeSls-NDOqsjsA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vdb70WmpEeSls-NDOqsjsA" x="75" y="68"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_FUoHAGmpEeSls-NDOqsjsA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_FUoHAWmpEeSls-NDOqsjsA">
+      <owner xmi:type="uml:Model" href="model.uml#_E6AnkGmpEeSls-NDOqsjsA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_E6AnkGmpEeSls-NDOqsjsA"/>
+  </notation:Diagram>
+</xmi:XMI>
