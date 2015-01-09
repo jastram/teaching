@@ -18,8 +18,8 @@ Create (1) a set of teaching materials that is actively used; (2) which is embed
 
 <a href="https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk">
 <img src="https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png" align="left" /></a>
-Michael Jastram and Andrea Herrmann spoke [about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).<br>
-<iframe width="640" height="360" src="//www.youtube.com/embed/rSRFMYMuDlk?list=PLy7t4z5SYNaRXII-_yPOrmHZx3FjxWiuY" frameborder="0" allowfullscreen></iframe>
+Michael Jastram and Andrea Herrmann spoke [about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).</br>
+[![Talk at EclipseCon 2014](https://i.ytimg.com/vi/rSRFMYMuDlk/mqdefault.jpg)](https://www.youtube.com/watch?v=rSRFMYMuDlk)
 
 ## Scope
 
