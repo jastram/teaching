@@ -8,10 +8,6 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-<a href="https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk">
-<img src="https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png" align="left" /></a>
-Michael Jastram and Andrea Herrmann will [speak about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).<br/><br/><br/>
-
 # Eclipse for Teaching Requirements and Systems Engineering
 
 Requirements Management and Engineering (RE&M) is taught, both in industry and academia. The availability of open source RE-tools, and the RMF-based fmStudio in particular, created some interest for using those tools for teaching.
@@ -19,6 +15,11 @@ Requirements Management and Engineering (RE&M) is taught, both in industry and a
 ## Vision
 
 Create (1) a set of teaching materials that is actively used; (2) which is embedded in a larger SE context; and (3) which explicitly focuses on applying RE.
+
+<a href="https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk">
+<img src="https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png" align="left" /></a>
+Michael Jastram and Andrea Herrmann spoke [about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).<br>
+<iframe width="640" height="360" src="//www.youtube.com/embed/rSRFMYMuDlk?list=PLy7t4z5SYNaRXII-_yPOrmHZx3FjxWiuY" frameborder="0" allowfullscreen></iframe>
 
 ## Scope
 
