@@ -16,10 +16,12 @@ Requirements Management and Engineering (RE&M) is taught, both in industry and a
 
 Create (1) a set of teaching materials that is actively used; (2) which is embedded in a larger SE context; and (3) which explicitly focuses on applying RE.
 
+## Watch the Video
+
 <a href="https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk">
 <img src="https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png" align="left" /></a>
-Michael Jastram and Andrea Herrmann spoke [about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).</br>
-[![Talk at EclipseCon 2014](https://i.ytimg.com/vi/rSRFMYMuDlk/mqdefault.jpg)](https://www.youtube.com/watch?v=rSRFMYMuDlk)
+Michael Jastram and Andrea Herrmann spoke [about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).<br/>
+[![Talk at EclipseCon 2014](images/youtube-preview-2014.png)](https://www.youtube.com/watch?v=rSRFMYMuDlk)
 
 ## Scope
 
