@@ -20,7 +20,9 @@ This project strives to disrupt the market for model-based system engineering (M
 
 The following picture visualizes what we are trying to achive:
 
+<center>
 <img src="images/vision.png"/>
+</center>
 
 We engage the main stakeholders (pink) and will produce content that provides easy access to MBSE (blue). And we build and maintain a community, held together by an online platform (green).
  
