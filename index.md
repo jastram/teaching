@@ -10,16 +10,26 @@ image:
 
 # Eclipse for Teaching Requirements and Systems Engineering
 
-Requirements Management and Engineering (RE&M) is taught, both in industry and academia. The availability of open source RE-tools, and the RMF-based fmStudio in particular, created some interest for using those tools for teaching.
+<a href="https://github.com/jastram/teaching/blob/master/SE/se-latex/main.pdf?raw=true">
+-<img src="images/book.png" align="right" /></a>
+Requirements Management and Engineering (RE&M) is taught, both in industry and academia. The availability of open source RE-tools, and the RMF-based fmStudio in particular, created some interest for using those tools for teaching.  Download the book (right) to set up a **minimally complete, eclipse-based MDSE tool**.
 
 ## Vision
 
-Create (1) a set of teaching materials that is actively used; (2) which is embedded in a larger SE context; and (3) which explicitly focuses on applying RE.
+This project strives to disrupt the market for model-based system engineering (MBSE) tools. Today this market is dominated by a few large players, locking users into a proprietary ecosystem. By building an open tool platform, complete with a reference process and a case study, we provide a platform for experimentation that has the potential for commercial deployment.
+
+The following picture visualizes what we are trying to achive:
+
+<img src="images/vision.png"/>
+
+We engage the main stakeholders (pink) and will produce content that provides easy access to MBSE (blue). And we build and maintain a community, held together by an online platform (green).
+ 
+The three major **stakeholders** are (1) academia, (2) service providers and (3) industry users.  Industry wants methods and tools that work.  In the past, this was provided by tool vendors. By using open source tools, this could be provided by service providers instead, paid for by industry users, without vendor lock-in. Open Source tooling encourages engagement of academia, which uses it in teaching and research.
+
+The content is freely licensed to encourage engagement, and consists of open source tooling, open documentation (which includes processes) and a case study.
 
 ## Watch the Video
 
-<a href="https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk">
-<img src="https://www.eclipsecon.org/europe2014/sites/default/files/ECE%20Friends%20100x100%20I%27m%20speaking%20at.png" align="left" /></a>
 Michael Jastram and Andrea Herrmann spoke [about this project at EclipseCon Europe 2014](https://www.eclipsecon.org/europe2014/session/eclipse-teaching-systems-engineering-35-minute-standard-talk).<br/>
 [![Talk at EclipseCon 2014](images/youtube-preview-2014.png)](https://www.youtube.com/watch?v=rSRFMYMuDlk)
 
